@@ -1,0 +1,11 @@
+div(class="accordion")
+	for items, key in groups
+		div(class="accordion-trigger")= key
+		div(class="accordion-body")
+			ul
+				for item in items
+					li
+						span(id=counter++, class="summary-item")
+							span=item.key
+							img(src=item.fields.priority.iconUrl)
+			

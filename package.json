@@ -1,0 +1,19 @@
+{
+	"name": "jeerah",
+	"description": "Wicked pissah Jira management.",
+	"version": "0.0.1",
+	"author": {
+		"name": "Sandro Pasquali",
+		"email": "spasquali@gmail.com"
+	},
+	"engines": {
+		"node": ">= 0.10.10"
+	},
+	"dependencies" : {
+		"jira"		: "0.6.0",
+		"express"	: "3.3.5",
+		"jade"		: "0.35.0",
+		"node-uuid"	: "1.4.1",
+		"moment"	: "2.1.0"
+	}
+}

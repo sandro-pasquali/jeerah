@@ -1,0 +1,14 @@
+for items, key in groups
+	for item, idx in items
+		div(class="bb-item")
+			div(class="bb-custom-side")
+				a(href=item.link, class="item-link")= item.key
+				div(class="item-summary")= item.fields.summary
+				div(class="item-created")= item.fields.created
+				div(class="item-updated")= item.fields.updated
+				div(class="item-state")
+					span(class="item-state-priority")= item.fields.priority.name
+					span(class="item-state-type")= item.fields.issuetype.name
+					img(src=item.fields.priority.iconUrl)
+			div(class="bb-custom-side")
+				div(class="item-description")= item.fields.description

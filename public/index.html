@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Jeerah</title>
+
+		<link rel="stylesheet" type="text/css" href="/css/accordion.css" />			
+		<link rel="stylesheet" type="text/css" href="/css/pager.css" />
+		<link rel="stylesheet" type="text/css" href="/css/modal.css" />
+		
+		<script src="/js/modernizr.custom.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="/js/jquerypp.custom.js"></script>
+		<script src="/js/pager.js"></script>
+		<script src="/js/jquery.accordion.js"></script>
+		<script src="/js/init.js"></script>
+
+
+	</head>
+	<body>
+		<div class="container">
+		
+			<div class="nav-buttons">
+				<button id="jump-to-index">Index</button>
+				<!--
+				<button class="md-trigger" data-modal="ticket-create-modal">Create Ticket</button>
+				-->
+			</div>
+			
+			<div class="bb-custom-wrapper">
+				<div id="bb-bookblock" class="bb-bookblock">
+					<div class="bb-item" id="first-page">
+						<div class="bb-custom-side" id="ticket-groups"></div>
+						<div class="bb-custom-side" id="user-profile"></div>
+					</div>
+				</div>
+			</div>
+
+		</div><!-- /container -->
+
+		<div class="md-modal md-effect" id="ticket-create-modal">
+			<div class="md-content">
+				Create!
+				<button class="md-close">Close</button>
+		
+			</div>
+		</div>
+		
+		<!-- Used by modal for overlay -->
+		<div class="md-overlay"></div>
+		
+	</body>
+</html>
