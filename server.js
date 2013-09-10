@@ -50,7 +50,7 @@ var Jira = {
 			}
 			
 			
-			console.log(util.inspect(issueList, {depth:10, colors:true}));
+			//console.log(util.inspect(issueList, {depth:10, colors:true}));
 			
 			var out = [];
 			issueList.issues.forEach(function(ob) {
